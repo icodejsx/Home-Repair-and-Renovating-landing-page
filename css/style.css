@@ -2,4 +2,91 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    overflow: hidden
 }
+.navbar{
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+    margin:0 auto;
+}
+.searchbar{
+    width:auto;
+    margin:6rem;
+    display:flex;
+    border:1px solid;
+    font-weight: bold;
+    color: black
+}
+.searchbar input{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:auto 1.3rem;
+    border:none;
+    background:none;
+    height:35px;
+    font-weight:bold;
+    color:black
+}
+.searchbar i{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto ;
+    margin-left: -2rem;
+    padding-right: 1rem;
+}
+.navbar > i{
+    margin: 0 6rem;
+    font-size:2rem;
+}
+
+.main{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin:4rem 0;
+}
+.main .text{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-self: center; 
+    margin:auto 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
