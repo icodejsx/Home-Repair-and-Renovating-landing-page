@@ -208,8 +208,31 @@
 .aboutus button:hover{
     background:rgb(234, 178, 11);
 }
-
-
+.third{
+    width:auto;
+    height:auto;
+    position:relative;
+}
+.third .textbox{
+    width:380px;
+    height:460px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:rgb(234, 198, 11);
+    position:absolute;
+    top: 2rem;
+    margin-left:8rem;
+}
+.third .textbox h1{
+    font-size: 4.5rem;
+    padding:1.5rem;
+    font-weight:bold;
+}
+.third .textbox p{
+    font-size: 3rem;
+}
 
 
 
