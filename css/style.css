@@ -158,8 +158,14 @@
     width:80px;
     height:80px;
     display:flex;
+    justify-content:center;
     border-radius: 50%;
     background:rgb(234, 198, 11);   
+}
+.boxcontainer .boxcard .box .logo i {
+    font-size: 3rem;
+    margin: auto;
+    font-weight:lighter;
 }
 .boxcontainer .boxcard .box h3 {
     color:rgb(234, 198, 11);
@@ -168,6 +174,7 @@
 .boxcontainer .boxcard .box p {
     font-size:1.1rem;
     width:80%;
+    text-align:center;;
 }
 
 .aboutus{
@@ -189,6 +196,7 @@
     display:flex;
     font-size: 1.6rem;
     font-weight: lighter;
+    text-align: center;
 }
 .aboutus button {
     font-size: 1rem;
